@@ -1,0 +1,36 @@
+nginx:
+  restart: always
+  build: ./nginx/
+  ports:
+    - "8080:8080"
+  volumes_from:
+    - web
+  links:
+    - web:web
+
+postgres:
+  image: openmaptiles/postgis
+  volumes:
+    - ./pgdata:/var/lib/postgresql/data
+  ports:
+    - "5432"
+  environment:
+    - POSTGRES_DB="lizard"
+    - POSTGRES_USER="lizard"
+    - POSTGRES_PASSWORD="lizard"
+
+web:
+  restart: always
+  build: ./web/
+  working_dir: /data/web/lizard
+  expose:
+    - "8000"
+  links:
+    - postgres:postgres
+  volumes:
+    - ./web:/data/web
+  command: /usr/bin/gunicorn lizard.wsgi:application -w 2 -b :8000 --reload --log-file=-
+  environment:
+    - POSTGRES_DB="lizard"
+    - POSTGRES_USER="lizard"
+    - POSTGRES_PASSWORD="lizard"

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="41px" viewBox="0 0 51 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Untitled 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="terrain" fill-rule="nonzero" fill="#000000">
+            <path d="M0,36.8590735 L25.2351173,5.68434189e-14 L50.0583233,36.3468565 L50.0583233,39.6964107 L0.202255852,39.8246705 L0,36.8590735 Z M14.8567611,23.2849105 L17.4655327,23.6146039 L22.8014696,16.6038899 L27.332494,24.163819 L29.5104442,18.4801007 L34.8192492,24.6579482 L37.3729349,24.218905 L25.3822872,7.1208859 L14.8567611,23.2849105 Z" id="icon-terrain"></path>
+        </g>
+    </g>
+</svg>

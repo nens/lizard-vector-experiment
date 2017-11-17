@@ -1,0 +1,7 @@
+Django==1.11.7
+gunicorn==19.3.0
+psycopg2==2.7.3
+mercantile==0.11.0
+graphene-django>=2.0
+graphene-django-extras
+django-filter

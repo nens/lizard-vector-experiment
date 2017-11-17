@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="37px" height="18px" viewBox="0 0 37 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>Slice 1</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page 1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" fill="#000000">
+            <path d="M2.41601562,0.514404297 L10.7678223,9.04003906 L2.35083008,17.4787598 L0.662109375,15.7219238 L7.26513672,9.05102539 L0.607421875,2.35546875 L2.41601562,0.514404297 Z M2.41601562,0.514404297" id="Path 1"></path>
+            <path d="M27.9326172,0.514404297 L36.2844238,9.04003906 L27.8674316,17.4787598 L26.1787109,15.7219238 L32.7817383,9.05102539 L26.1240234,2.35546875 L27.9326172,0.514404297 Z M27.9326172,0.514404297" id="Path 1" transform="translate(31.204224, 8.996582) scale(-1, 1) translate(-31.204224, -8.996582) "></path>
+            <path d="M12.3828125,6.15307617 L17.5090332,6.15307617 L17.5090332,11.9536923 L12.3906611,11.9536923 L12.3828125,6.15307617 Z M12.3828125,6.15307617" id="Path 2"></path>
+            <path d="M19.3828125,6.15307617 L24.5090332,6.15307617 L24.5090332,11.9536923 L19.3906611,11.9536923 L19.3828125,6.15307617 Z M19.3828125,6.15307617" id="Path 2"></path>
+        </g>
+    </g>
+</svg>

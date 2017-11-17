@@ -1,0 +1,10 @@
+.DS_Store
+node_modules/
+old/
+pgdata/
+geojson/
+__pycache__/
+tiles/
+mapviewer/
+maputnik/
+all_manholes.sql
